@@ -5,6 +5,11 @@
 }
 .nav-bar{
   height: 15vh;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  overflow: hidden;
+  background-color: #fff;
 }
 
 .charcuterie-board-img{
@@ -14,6 +19,7 @@
 
 .hours{
   height: 30vh;
+  margin-top: 175px;
 }
 
 
