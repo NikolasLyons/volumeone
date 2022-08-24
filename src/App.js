@@ -5,6 +5,7 @@ import Nav from './components/Nav';
 import Menu from './components/Menu';
 import Drinks from './components/Drinks';
 import Hours from './components/Hours';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Hours/>
       <Menu />
       <Drinks />
+      <Footer />
     </div>
   );
 }

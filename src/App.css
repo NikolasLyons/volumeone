@@ -1,5 +1,5 @@
 
-
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
 .logo{
   height: 75px;
 }
@@ -42,6 +42,11 @@
   background-color: #e9ecef;
   border-radius: 5px;
 } */
+
+.gallery{
+  overflow-y: none;
+  overflow-x: scroll;
+}
 
 .gallery.onload-fade-in article .image img {
   -moz-transition: opacity 0.75s ease-in-out;
