@@ -16,37 +16,37 @@ export default class Menu extends Component {
             Cocktails
           </h2>
           <ol>
-            <li className='d-flex justify-content-between'><span>this will be item 1</span><p>$12.90</p></li>
-            <li className='d-flex justify-content-between'><span>this will be item 2</span><p>$11.90</p></li>
-            <li className='d-flex justify-content-between'><span>this will be item 3</span><p>$10.90</p></li>
-            <li className='d-flex justify-content-between'><span>this will be item 4</span><p>$13.90</p></li>
-            <li className='d-flex justify-content-between'><span>this will be item 5</span><p>$7.90</p></li>
-            <li className='d-flex justify-content-between'><span>this will be item 6</span><p>$13.90</p></li>
-            <li className='d-flex justify-content-between'><span>this will be item 7</span><p>$16.90</p></li>
+            <li className='d-flex justify-content-between'><span>this will be item 1</span></li>
+            <li className='d-flex justify-content-between'><span>this will be item 2</span></li>
+            <li className='d-flex justify-content-between'><span>this will be item 3</span></li>
+            <li className='d-flex justify-content-between'><span>this will be item 4</span></li>
+            <li className='d-flex justify-content-between'><span>this will be item 5</span></li>
+            <li className='d-flex justify-content-between'><span>this will be item 6</span></li>
+            <li className='d-flex justify-content-between'><span>this will be item 7</span></li>
           </ol>
           <h2>
             Drafts
           </h2>
           <ol>
-            <li className='d-flex justify-content-between'><span>this will be item 1</span><p>$12.90</p></li>
-            <li className='d-flex justify-content-between'><span>this will be item 2</span><p>$11.90</p></li>
-            <li className='d-flex justify-content-between'><span>this will be item 3</span><p>$10.90</p></li>
-            <li className='d-flex justify-content-between'><span>this will be item 4</span><p>$13.90</p></li>
-            <li className='d-flex justify-content-between'><span>this will be item 5</span><p>$7.90</p></li>
-            <li className='d-flex justify-content-between'><span>this will be item 6</span><p>$13.90</p></li>
-            <li className='d-flex justify-content-between'><span>this will be item 7</span><p>$16.90</p></li>
+            <li className='d-flex justify-content-between'><span>this will be item 1</span></li>
+            <li className='d-flex justify-content-between'><span>this will be item 2</span></li>
+            <li className='d-flex justify-content-between'><span>this will be item 3</span></li>
+            <li className='d-flex justify-content-between'><span>this will be item 4</span></li>
+            <li className='d-flex justify-content-between'><span>this will be item 5</span></li>
+            <li className='d-flex justify-content-between'><span>this will be item 6</span></li>
+            <li className='d-flex justify-content-between'><span>this will be item 7</span></li>
           </ol>
           <h2>
             Imports
           </h2>
           <ol>
-            <li className='d-flex justify-content-between'><span>this will be item 1</span><p>$12.90</p></li>
-            <li className='d-flex justify-content-between'><span>this will be item 2</span><p>$11.90</p></li>
-            <li className='d-flex justify-content-between'><span>this will be item 3</span><p>$10.90</p></li>
-            <li className='d-flex justify-content-between'><span>this will be item 4</span><p>$13.90</p></li>
-            <li className='d-flex justify-content-between'><span>this will be item 5</span><p>$7.90</p></li>
-            <li className='d-flex justify-content-between'><span>this will be item 6</span><p>$13.90</p></li>
-            <li className='d-flex justify-content-between'><span>this will be item 7</span><p>$16.90</p></li>
+            <li className='d-flex justify-content-between'><span>this will be item 1</span></li>
+            <li className='d-flex justify-content-between'><span>this will be item 2</span></li>
+            <li className='d-flex justify-content-between'><span>this will be item 3</span></li>
+            <li className='d-flex justify-content-between'><span>this will be item 4</span></li>
+            <li className='d-flex justify-content-between'><span>this will be item 5</span></li>
+            <li className='d-flex justify-content-between'><span>this will be item 6</span></li>
+            <li className='d-flex justify-content-between'><span>this will be item 7</span></li>
           </ol>
         </div>
         <div className='col-6 p-3'>
