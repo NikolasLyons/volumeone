@@ -5,8 +5,8 @@
 }
 .nav-bar{
   height: 15vh;
-  position: fixed;
-  width: 100%;
+  position: sticky;
+
   top: 0;
   overflow: hidden;
   background-color: #fff;
@@ -19,7 +19,22 @@
 
 .hours{
   height: 30vh;
-  margin-top: 175px;
+  margin-top: 20px;
+}
+
+.banner{
+  object-fit: contain;
+  height: 200px;
+  
+  
+}
+a{
+  color: #da3b3b;
+  text-decoration: none;
+}
+a:hover, a:focus {
+color: #080808;
+  text-decoration:underline #000000;
 }
 
 

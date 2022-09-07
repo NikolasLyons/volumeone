@@ -15,3 +15,30 @@ code {
 .icon{
   height: auto;
 }
+
+.tabs{
+  margin: 0;
+  font-size: 1.5em;
+}
+
+.social-icons{
+  font-size: 1.5rem;
+}
+
+.footer{
+  height: 50vh;
+  display: flex;
+}
+
+.menu{
+  margin-top: 175px;
+}
+
+.bannerBack{
+  background-repeat: no-repeat;
+  object-fit: cover;
+  background-image: url("https://www.jamesedition.com/stories/wp-content/uploads/2020/10/1.png");
+  
+  height: 500px;
+  padding: 4px;
+}
