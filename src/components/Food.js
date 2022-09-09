@@ -4,7 +4,9 @@ import largePlatter from '../assets/Images/4-7-person-platter.png'
 
 export default function Food() {
   return (
-    <div className='col-6 p-3'>
+    <div className='row justify-content-center'>
+
+      <div className='col-10 p-3 '>
           <div className='row border border-dark rounded p-3 m-2'>
             <div className='col-6'>
               <div className='row'>
@@ -79,5 +81,6 @@ export default function Food() {
 
           </div>
         </div>
+    </div>
   )
 }

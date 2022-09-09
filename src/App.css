@@ -28,14 +28,7 @@
   
   
 }
-a{
-  color: #da3b3b;
-  text-decoration: none;
-}
-a:hover, a:focus {
-color: #080808;
-  text-decoration:underline #000000;
-}
+
 
 
 /* .drinks-container {

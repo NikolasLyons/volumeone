@@ -16,17 +16,13 @@ code {
   height: auto;
 }
 
-.tabs{
-  margin: 0;
-  font-size: 1.5em;
-}
 
 .social-icons{
   font-size: 1.5rem;
 }
 
 .footer{
-  height: 50vh;
+  width: 100%;
   display: flex;
 }
 
@@ -36,9 +32,18 @@ code {
 
 .bannerBack{
   background-repeat: no-repeat;
-  object-fit: cover;
-  background-image: url("https://www.jamesedition.com/stories/wp-content/uploads/2020/10/1.png");
-  
-  height: 500px;
+  background-position: center;
+  background-size: cover;
+  padding: 3px;
+  position:static;
+  height: 40vh;
   padding: 4px;
+}
+.tabs{
+  color: #da3b3b;
+  text-decoration: none;
+}
+.tabs:hover, .tabs:focus {
+color: #080808;
+  text-decoration:underline #000000;
 }
