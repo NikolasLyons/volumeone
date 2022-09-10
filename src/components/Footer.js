@@ -44,7 +44,7 @@ export default function Footer() {
           <i className='mdi mdi-facebook'></i>
         </div>
         </div>
-        <p> & copy Volumeone Reserves the Rights</p>
+        <p> &copy; Volumeone Reserves the Rights</p>
         
         </div>
         </div>
