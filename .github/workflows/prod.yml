@@ -36,4 +36,4 @@ jobs:
         user-email: ${{ secrets.EMAIL }}
         target-branch: 'gh-pages'
         commit-message: 'deploy page from action'
-        tag: 'build'
+        tag: ${{  github.ref_name }}
