@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
+body {
+  margin: 0;
+  font-family: 'Josefin Sans', cursive;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.icon{
+  height: auto;
+}
+
+
+.social-icons{
+  font-size: 1.5rem;
+}
+
+.footer{
+  width: 100%;
+  display: flex;
+}
+
+.menu{
+  margin-top: 175px;
+}
+
+.bannerBack{
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 3px;
+  position:static;
+  height: 40vh;
+  padding: 4px;
+}
+.tabs{
+  color: #da3b3b;
+  text-decoration: none;
+}
+.tabs:hover, .tabs:focus {
+color: #080808;
+  text-decoration:underline #000000;
+}
