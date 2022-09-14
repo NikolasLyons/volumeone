@@ -25,15 +25,12 @@ jobs:
       run: |
         npm i
         npm run build
-    - name: Push to live repo
-      uses: vinayb21/github-action-push-to-another-repo@1.4.0
-      env:
-          API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
+    - name: Deploy
+      uses: manzoorwanijk/action-deploy-to-repo@master
       with:
-        source-directory: 'build'
-        destination-github-username: 'NikolasLyons'
-        destination-repository-name: 'volumeone'
-        user-email: ${{ secrets.EMAIL }}
-        target-branch: 'gh-pages'
-        commit-message: 'deploy page from action'
-        tag: ${{  github.ref_name }}
+        src_dir: build
+        target_owner: NikolasLyons
+        target_repo: volumeone
+        target_dir: ./
+        target_branch: gh-pages
+        access_token: ${{ secrets.API_TOKEN_GITHUB }}
