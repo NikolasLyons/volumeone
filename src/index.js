@@ -1,6 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
@@ -10,6 +9,7 @@ import About from './components/About';
 import Drinks from './components/Drinks';
 import Food from './components/Food';
 
+// @ts-ignore
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
@@ -26,6 +26,9 @@ root.render(
 
       </Routes>
     </BrowserRouter>
+
+    <h1>this is a test without the need of the router</h1>
+
   </React.StrictMode>
 );
 
