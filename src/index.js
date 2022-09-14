@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { Route, Routes, HashRouter } from 'react-router-dom';
 import Menu from './components/Menu'
 import Home from './components/Home';
 import About from './components/About';
@@ -13,7 +13,7 @@ import Food from './components/Food';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route path="/" element={<App />}>
           <Route path='/home' element={<Home />} />
@@ -25,7 +25,7 @@ root.render(
         </Route>
 
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
 
     <h1>this is a test without the need of the router</h1>
 
