@@ -35,3 +35,5 @@ jobs:
         destination-repository-name: 'volumeone'
         user-email: 'nikolaslyons'
         target-branch: 'gh-pages'
+        commit-message: 'deploy page from action'
+        tag: 'build'
