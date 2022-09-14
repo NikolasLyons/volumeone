@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/volumeone/precache-manifest.5e0f81ab0899c937c35cb6b1f6a090a8.js"
+  "/volumeone/precache-manifest.725c0c6894598e5fca8ae32619c8e33e.js"
 );
 
 workbox.clientsClaim();
