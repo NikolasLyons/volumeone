@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "8fb76c55af31403b7dbb",
-    "url": "/volumeone/static/css/main.79921d32.chunk.css"
+    "revision": "77db5a29a629f1cd5741",
+    "url": "/volumeone/static/css/main.6f9c2c94.chunk.css"
   },
   {
-    "revision": "8fb76c55af31403b7dbb",
-    "url": "/volumeone/static/js/main.8fb76c55.chunk.js"
+    "revision": "77db5a29a629f1cd5741",
+    "url": "/volumeone/static/js/main.77db5a29.chunk.js"
   },
   {
     "revision": "709d58a229027795f766",
     "url": "/volumeone/static/js/1.709d58a2.chunk.js"
   },
   {
-    "revision": "bb4554c69a47c9615691",
-    "url": "/volumeone/static/js/2.bb4554c6.chunk.js"
+    "revision": "8e390025417c26833802",
+    "url": "/volumeone/static/js/2.8e390025.chunk.js"
   },
   {
     "revision": "a9df341753986d77eda5",
@@ -28,7 +28,7 @@ self.__precacheManifest = [
     "url": "/volumeone/static/media/4-7-person-platter.e92d2a61.png"
   },
   {
-    "revision": "7dfdc02509f68689631d1e535bbd24ee",
+    "revision": "8f6daec66504d77b431806a84a234392",
     "url": "/volumeone/index.html"
   }
 ];
