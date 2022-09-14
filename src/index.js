@@ -26,9 +26,6 @@ root.render(
 
       </Routes>
     </HashRouter>
-
-    <h1>this is a test without the need of the router</h1>
-
   </React.StrictMode>
 );
 
