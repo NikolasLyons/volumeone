@@ -16,7 +16,7 @@ export default function Footer() {
 
           <div className='col-6  text-center p-3'>
             <h4>Address</h4>
-            <p>this is the Address</p>
+            <p>1441 N Eagle Rd #200, Meridian, ID 83642</p>
             <h4>Phone</h4>
             <a className='tabs' href="tel:2087247604">(208)724-7604</a>
             <h4>Email</h4>
