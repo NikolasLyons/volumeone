@@ -47,3 +47,8 @@ code {
 color: #080808;
   text-decoration:underline #000000;
 }
+
+.volumelogo{
+  color: #da3b3b;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
