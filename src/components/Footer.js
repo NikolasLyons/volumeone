@@ -32,7 +32,7 @@ export default function Footer() {
                 <i className='mdi mdi-instagram p-3'></i>
               </div>
               <div className='social-icons'>
-                <a target="_blank" href='https://www.facebook.com/profile.php?id=100086435231208'><i className='mdi mdi-facebook'></i></a>
+                <a href='https://www.facebook.com/profile.php?id=100086435231208'><i className='mdi mdi-facebook'></i></a>
               </div>
             </div>
             <p> &copy; Volumeone Reserves the Rights</p>
