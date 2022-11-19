@@ -13,18 +13,10 @@ export default class Nav extends Component {
         </div>
         <div className=' col-md-4 d-flex justify-content-around align-self-center'>
           <h4 ><Link to="/about" className='tabs'>About</Link></h4>
-          <h4 ><Link to="/menu/drinks" className='tabs'>Menu</Link></h4>
+          <h4 ><Link to="/menu/martinis" className='tabs'>Menu</Link></h4>
           <h4 ><Link to="/" className='tabs'>Contact Us</Link></h4>
 
         </div>
-        <div className=' col-sm-4  justify-content-around align-self-center'>
-          <h4 ><Link to="/about" className='tabs'>About</Link></h4>
-          <h4 ><Link to="/menu/drinks" className='tabs'>Menu</Link></h4>
-          <h4 ><Link to="/" className='tabs'>Contact Us</Link></h4>
-
-        </div>
-
-
       </div>
     )
   }
